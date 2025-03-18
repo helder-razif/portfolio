@@ -1,0 +1,27 @@
+body {
+    background-color:whitesmoke;
+    color: #fd226b;
+}
+
+strong {
+    color:black;
+}
+
+h1{
+    font-weight: bold;
+}
+
+p {
+    color: darkgray;
+}
+
+span{
+    color: #FFC300;
+    border: 1px solid #FFC300;
+    padding: 10px;
+}
+
+img {
+    width: 234PX;
+    height: 303px;
+}
