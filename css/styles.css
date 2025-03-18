@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #001D3D;
+    background-color:darkslategrey;
     color: whitesmoke;
 }
 
@@ -18,22 +18,15 @@ strong {
 
 .titulo-blog {
     font-weight: bold;
-    color: darkorange;
+    color: #FFC300;
 }
 
 p {
-    color:cornflowerblue;
-}
-
-span{
-    color: #fd226b;
-    border: 1px solid #fd226b;
-    padding: 10px;
+    color:whitesmoke;
 }
 
 .foto-razif {
-    width: 351px;
-    height: 455px;
+    height: 100vh;
 }
 
 .container {
@@ -42,12 +35,12 @@ span{
 }
 
 .texto-destaque {
-    color: aqua;
+    color: #FFC300;
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao{
-    margin: 5% 15% 0% 15%;
+    margin: 0% 15% 0% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,18 +65,34 @@ span{
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .apresentacao__links__link{
-    background-color: #22D4FD;
+    /* background-color: whitesmoke; */
     width: 250px;
     text-align: center;
-    border-radius: 16px;
+    border: 2px solid whitesmoke;
+    border-radius: 0px; 
     font-size: 20px;
     font-weight: 600;
     padding: 15px 0;
     text-decoration: none;
-    color: #000000;
+    color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
+    width: 378px;
+}
+
+.apresentacao__links__redes {
+    color: whitesmoke;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icones {
+    height: 50px;
 }
