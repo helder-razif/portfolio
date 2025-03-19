@@ -141,32 +141,18 @@ p {
     color: var(--cor-quaternaria);
 }
 
-@media (max-width: 75rem) {
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: .5% 1.5%;
-        width: 50%;
-    }
-    .apresentacao__imagem{
-        width: 100%;
-    }
-    .cabecalho {
+@media (max-width: 1200px) {
+    .cabecalho{
         padding: 10%;
     }
-
-    .apresentacao__conteudo{
-        width: 50%;
+    .cabecalho__menu {
+        justify-content: center;
     }
-    .apresentacao__conteudo__texto{
-        width: 50%;
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
     }
-    .apresentacao__conteudo__titulo{
-        width: 50%;
-    }
-    .apresentacao__links__link{
-        width: 50%;
-    }
-    .cabecalho {
-        padding: .75%;   
+    .apresentacao__conteudo {
+        width: auto;
     }
 }
